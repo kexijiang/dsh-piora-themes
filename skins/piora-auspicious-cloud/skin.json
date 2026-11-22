@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-auspicious-cloud",
+  "name": "祥瑞云锦",
+  "nameEn": "祥瑞云锦 · Auspicious Clouds",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "宣纸金 · 朱砂红",
+  "description": "Auspicious Clouds。宣纸金 · 朱砂红，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#8b342b",
+  "order": 105,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/auspicious-cloud.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/auspicious-cloud.webp",
+        "scrim": "linear-gradient(90deg, rgba(250, 238, 217, 0.53), rgba(250, 238, 217, 0.62) 55%, rgba(250, 238, 217, 0.14) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/auspicious-cloud.webp",
+        "scrim": "linear-gradient(90deg, rgba(42, 28, 28, 0.67), rgba(42, 28, 28, 0.77) 55%, rgba(42, 28, 28, 0.23) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

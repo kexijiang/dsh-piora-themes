@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-crimson-sword",
+  "name": "赤月剑境",
+  "nameEn": "赤月剑境 · Crimson Moon",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "烟玫瑰 · 赤月",
+  "description": "Crimson Moon。烟玫瑰 · 赤月，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#983f54",
+  "order": 106,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/crimson-sword.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/crimson-sword.webp",
+        "scrim": "linear-gradient(90deg, rgba(247, 233, 235, 0.64), rgba(247, 233, 235, 0.72) 55%, rgba(247, 233, 235, 0.20) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/crimson-sword.webp",
+        "scrim": "linear-gradient(90deg, rgba(37, 20, 28, 0.25), rgba(37, 20, 28, 0.46) 55%, rgba(37, 20, 28, 0.08) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

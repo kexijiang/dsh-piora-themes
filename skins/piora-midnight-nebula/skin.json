@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-midnight-nebula",
+  "name": "午夜星云",
+  "nameEn": "午夜星云 · Midnight Nebula",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "星紫 · 深蓝",
+  "description": "Midnight Nebula。星紫 · 深蓝，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#654c9c",
+  "order": 104,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/midnight-nebula.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/midnight-nebula.webp",
+        "scrim": "linear-gradient(90deg, rgba(243, 240, 255, 0.67), rgba(243, 240, 255, 0.75) 55%, rgba(243, 240, 255, 0.25) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/midnight-nebula.webp",
+        "scrim": "linear-gradient(90deg, rgba(20, 22, 42, 0.25), rgba(20, 22, 42, 0.46) 55%, rgba(20, 22, 42, 0.07) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

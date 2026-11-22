@@ -1,0 +1,422 @@
+[
+  {
+    "file": "sage-paper",
+    "name": "鼠尾草纸艺",
+    "title": "Sage Paper",
+    "tagline": "奶油纸面 · 鼠尾草绿",
+    "light": [
+      "#f5f0e2",
+      "#fffdf2",
+      "#30392b",
+      "#4e613c",
+      [
+        0.42,
+        0.41,
+        0.1
+      ]
+    ],
+    "dark": [
+      "#1b231a",
+      "#242e20",
+      "#f0efe0",
+      "#bacb88",
+      [
+        0.76,
+        0.82,
+        0.3
+      ]
+    ],
+    "scene": "Pressed leaves and ivory paper",
+    "family": "dream"
+  },
+  {
+    "file": "moss-forest",
+    "name": "苔藓森林",
+    "title": "Moss Forest",
+    "tagline": "苔绿 · 岩石灰",
+    "light": [
+      "#edf2e6",
+      "#f8faef",
+      "#28382a",
+      "#386047",
+      [
+        0.59,
+        0.61,
+        0.18
+      ]
+    ],
+    "dark": [
+      "#12201a",
+      "#1c2b23",
+      "#e2ecdd",
+      "#97c191",
+      [
+        0.34,
+        0.55,
+        0.1
+      ]
+    ],
+    "scene": "A moss-covered forest after rain",
+    "family": "dream"
+  },
+  {
+    "file": "aurora-glass",
+    "name": "极光玻璃",
+    "title": "Aurora Glass",
+    "tagline": "冰蓝玻璃 · 淡紫极光",
+    "light": [
+      "#edf2ff",
+      "#f9fbff",
+      "#263249",
+      "#4e5799",
+      [
+        0.68,
+        0.7,
+        0.25
+      ]
+    ],
+    "dark": [
+      "#121933",
+      "#1c2646",
+      "#e6f2ff",
+      "#9ecddd",
+      [
+        0.34,
+        0.52,
+        0.12
+      ]
+    ],
+    "scene": "Soft ribbons of blue and violet",
+    "family": "dream"
+  },
+  {
+    "file": "midnight-nebula",
+    "name": "午夜星云",
+    "title": "Midnight Nebula",
+    "tagline": "星紫 · 深蓝",
+    "light": [
+      "#f3f0ff",
+      "#fcfaff",
+      "#332e4e",
+      "#654c9c",
+      [
+        0.67,
+        0.75,
+        0.25
+      ]
+    ],
+    "dark": [
+      "#14162a",
+      "#1e213c",
+      "#eeebff",
+      "#b8a7f1",
+      [
+        0.25,
+        0.46,
+        0.07
+      ]
+    ],
+    "scene": "A violet nebula with a quiet horizon",
+    "family": "dream"
+  },
+  {
+    "file": "auspicious-cloud",
+    "name": "祥瑞云锦",
+    "title": "Auspicious Clouds",
+    "tagline": "宣纸金 · 朱砂红",
+    "light": [
+      "#faeed9",
+      "#fff8e8",
+      "#4a3029",
+      "#8b342b",
+      [
+        0.53,
+        0.62,
+        0.14
+      ]
+    ],
+    "dark": [
+      "#2a1c1c",
+      "#392322",
+      "#fff0d6",
+      "#e4b879",
+      [
+        0.67,
+        0.77,
+        0.23
+      ]
+    ],
+    "scene": "Cloud brocade in cinnabar and gold",
+    "family": "dream"
+  },
+  {
+    "file": "crimson-sword",
+    "name": "赤月剑境",
+    "title": "Crimson Moon",
+    "tagline": "烟玫瑰 · 赤月",
+    "light": [
+      "#f7e9eb",
+      "#fff6f7",
+      "#4a2a33",
+      "#983f54",
+      [
+        0.64,
+        0.72,
+        0.2
+      ]
+    ],
+    "dark": [
+      "#25141c",
+      "#331c28",
+      "#f9e5e9",
+      "#eda7b2",
+      [
+        0.25,
+        0.46,
+        0.08
+      ]
+    ],
+    "scene": "Moonlight over crimson mountains",
+    "family": "dream"
+  },
+  {
+    "file": "anime-sky-campus",
+    "name": "青空放课后",
+    "title": "After School Sky",
+    "tagline": "晴空蓝 · 白云",
+    "light": [
+      "#edf6ff",
+      "#f8fcff",
+      "#263c53",
+      "#2c618c",
+      [
+        0.5,
+        0.57,
+        0.13
+      ]
+    ],
+    "dark": [
+      "#142437",
+      "#1e3149",
+      "#e8f3ff",
+      "#9bc9f4",
+      [
+        0.76,
+        0.82,
+        0.25
+      ]
+    ],
+    "scene": "Blue skies over a quiet campus",
+    "family": "dream"
+  },
+  {
+    "file": "anime-neon-city",
+    "name": "雨夜霓虹",
+    "title": "Neon Rain",
+    "tagline": "雨蓝 · 电光洋红",
+    "light": [
+      "#efeffa",
+      "#fbf9ff",
+      "#332e49",
+      "#5c4b92",
+      [
+        0.69,
+        0.78,
+        0.24
+      ]
+    ],
+    "dark": [
+      "#18172f",
+      "#25213d",
+      "#f2eafe",
+      "#e6a4e9",
+      [
+        0.35,
+        0.54,
+        0.1
+      ]
+    ],
+    "scene": "Rain reflecting city neon",
+    "family": "dream"
+  },
+  {
+    "file": "whale-tide",
+    "name": "晴汐",
+    "title": "Whale at Daybreak",
+    "tagline": "鲸鱼娘 · 晴海蓝",
+    "light": [
+      "#edf7fb",
+      "#f8fcff",
+      "#243c56",
+      "#2f5c90",
+      [
+        0.27,
+        0.38,
+        0.04
+      ]
+    ],
+    "dark": [
+      "#142638",
+      "#1d3350",
+      "#e1f3ff",
+      "#9cccf3",
+      [
+        0.75,
+        0.81,
+        0.28
+      ]
+    ],
+    "scene": "Morning light in an ocean-view cafe",
+    "family": "character"
+  },
+  {
+    "file": "whale-abyss",
+    "name": "深海夜航",
+    "title": "Whale in the Abyss",
+    "tagline": "鲸鱼娘 · 深海青蓝",
+    "light": [
+      "#e8f6f5",
+      "#f5fdfd",
+      "#1d3f49",
+      "#286176",
+      [
+        0.65,
+        0.73,
+        0.21
+      ]
+    ],
+    "dark": [
+      "#0e2533",
+      "#193645",
+      "#e1f6fb",
+      "#85d9e2",
+      [
+        0.32,
+        0.51,
+        0.08
+      ]
+    ],
+    "scene": "A night voyage under deep blue water",
+    "family": "character"
+  },
+  {
+    "file": "claude-paper",
+    "name": "杏纸书房",
+    "title": "Apricot Study",
+    "tagline": "Claude 娘 · 杏纸与陶土",
+    "light": [
+      "#faf1e2",
+      "#fffcf4",
+      "#49362c",
+      "#8c4936",
+      [
+        0.31,
+        0.46,
+        0.05
+      ]
+    ],
+    "dark": [
+      "#291e19",
+      "#372820",
+      "#faeada",
+      "#e4ae89",
+      [
+        0.75,
+        0.82,
+        0.22
+      ]
+    ],
+    "scene": "Apricot paper and afternoon reading",
+    "family": "character"
+  },
+  {
+    "file": "claude-lamp",
+    "name": "琥珀夜读",
+    "title": "Amber Lamplight",
+    "tagline": "Claude 娘 · 胡桃木与琥珀",
+    "light": [
+      "#faeed9",
+      "#fff8e9",
+      "#493327",
+      "#835223",
+      [
+        0.54,
+        0.68,
+        0.17
+      ]
+    ],
+    "dark": [
+      "#2a2119",
+      "#382d23",
+      "#f6e7d4",
+      "#e4bd7c",
+      [
+        0.32,
+        0.53,
+        0.07
+      ]
+    ],
+    "scene": "A book beside an amber lamp",
+    "family": "character"
+  },
+  {
+    "file": "gpt-ivory",
+    "name": "白龙云庭",
+    "title": "Ivory Dragon",
+    "tagline": "GPT 娘 · 银白与浅丁香",
+    "light": [
+      "#f3f0fa",
+      "#fcfaff",
+      "#353149",
+      "#645783",
+      [
+        0.27,
+        0.4,
+        0.05
+      ]
+    ],
+    "dark": [
+      "#222037",
+      "#302b44",
+      "#f3ebff",
+      "#c9b8e9",
+      [
+        0.73,
+        0.81,
+        0.23
+      ]
+    ],
+    "scene": "An ivory dragon on a cloud terrace",
+    "family": "character"
+  },
+  {
+    "file": "gpt-orbit",
+    "name": "星环龙庭",
+    "title": "Orbital Dragon",
+    "tagline": "GPT 娘 · 银河蓝紫",
+    "light": [
+      "#f0f1fd",
+      "#fafaff",
+      "#312e52",
+      "#50499b",
+      [
+        0.63,
+        0.74,
+        0.2
+      ]
+    ],
+    "dark": [
+      "#171a34",
+      "#222747",
+      "#ebeaff",
+      "#aaaef2",
+      [
+        0.32,
+        0.52,
+        0.09
+      ]
+    ],
+    "scene": "A silver dragon under an orbital sky",
+    "family": "character"
+  }
+]

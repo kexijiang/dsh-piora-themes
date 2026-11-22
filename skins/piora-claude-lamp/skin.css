@@ -1,0 +1,173 @@
+/* Piora artwork palette. See NOTICE.md. */
+
+:root {
+  color-scheme: light;
+  --piora-base: #faeed9;
+  --piora-canvas: #faeed92e;
+  --piora-panel: #fff8e9;
+  --piora-sidebar: #fff8e9c9;
+  --piora-raised: #fff8e9;
+  --piora-hover: #f1e6d3;
+  --piora-selected: #e6d7c1;
+  --piora-border: #d7cdbe;
+  --piora-border-strong: #b1a396;
+  --piora-text: #493327;
+  --piora-secondary: #6d594b;
+  --piora-tertiary: #6e5a4c;
+  --piora-accent: #835223;
+  --piora-accent-hover: #7b4e24;
+  --piora-on-accent: #ffffff;
+  --piora-user: #ecdfcb;
+  --piora-composer: #fff8e9f5;
+  --piora-code: #fff8e9;
+  --piora-code-heading: #ebe2d4;
+  --piora-added: #dae2ce;
+  --piora-deleted: #f2d8ce;
+  --piora-error: #a83240;
+  --piora-success: #3a6742;
+  --piora-warn: #785522;
+  --piora-warn-bg: #efe0c6;
+  --piora-popup: #fff8e9;
+  --piora-toast: #493327;
+  --piora-on-toast: #fff8e9;
+  --piora-reading: #faeed98a;
+}
+
+body[data-ds-dark-theme] {
+  color-scheme: dark;
+  --piora-base: #2a2119;
+  --piora-canvas: #2a21192e;
+  --piora-panel: #382d23;
+  --piora-sidebar: #382d23d4;
+  --piora-raised: #382d23;
+  --piora-hover: #4b3d2d;
+  --piora-selected: #5a4a35;
+  --piora-border: #62564a;
+  --piora-border-strong: #8a7d6f;
+  --piora-text: #f6e7d4;
+  --piora-secondary: #cabcac;
+  --piora-tertiary: #ccbeae;
+  --piora-accent: #e4bd7c;
+  --piora-accent-hover: #e7c388;
+  --piora-on-accent: #090a0c;
+  --piora-user: #524330;
+  --piora-composer: #382d23f5;
+  --piora-code: #382d23;
+  --piora-code-heading: #4d4136;
+  --piora-added: #3c4935;
+  --piora-deleted: #623a37;
+  --piora-error: #f3aca9;
+  --piora-success: #9fd7ae;
+  --piora-warn: #efca80;
+  --piora-warn-bg: #54412b;
+  --piora-popup: #382d23;
+  --piora-toast: #382d23;
+  --piora-on-toast: #f6e7d4;
+  --piora-reading: #2a211987;
+}
+
+/* Resolve the same DSH aliases on the element that owns each palette. */
+:root,
+body[data-ds-dark-theme] {
+  color: var(--piora-text);
+  background-color: var(--piora-base);
+
+  --dsw-alias-bg-base: var(--piora-canvas);
+  --dsw-alias-bg-layer-1: var(--piora-panel);
+  --dsw-alias-bg-layer-2: var(--piora-raised);
+  --dsw-alias-bg-layer-3: var(--piora-hover);
+  --dsw-alias-bg-layer-4: var(--piora-selected);
+  --dsw-alias-bg-module-platform: var(--piora-panel);
+  --dsw-alias-bg-multi-select: var(--piora-selected);
+  --dsw-alias-bg-overlay: var(--piora-popup);
+  --dsw-alias-bg-document-preview: var(--piora-raised);
+  --dsw-alias-bg-document-selection: var(--piora-user);
+  --dsw-alias-border-l1: var(--piora-border);
+  --dsw-alias-border-l2: var(--piora-border);
+  --dsw-alias-border-l2-darkmode-thin: var(--piora-border);
+  --dsw-alias-border-l3: var(--piora-border-strong);
+
+  --dsw-alias-label-primary: var(--piora-text);
+  --dsw-alias-label-primary-bluish: var(--piora-text);
+  --dsw-alias-label-primary-dimmed: var(--piora-secondary);
+  --dsw-alias-label-primary-foreground: var(--piora-on-accent);
+  --dsw-alias-label-primary-inverted: var(--piora-on-accent);
+  --dsw-alias-label-secondary: var(--piora-secondary);
+  --dsw-alias-label-tertiary: var(--piora-tertiary);
+  --dsw-alias-label-caption: var(--piora-tertiary);
+  --dsw-alias-label-document-preview: var(--piora-text);
+  --dsw-alias-label-error: var(--piora-error);
+
+  --dsw-alias-brand-primary: var(--piora-accent);
+  --dsw-alias-brand-primary-new-colorprimary-new-color: var(--piora-accent);
+  --dsw-alias-brand-primary-invert: var(--piora-on-accent);
+  --dsw-alias-brand-text: var(--piora-accent);
+  --dsw-alias-button-primary-fill: var(--piora-accent);
+  --dsw-alias-button-primary-hover: var(--piora-accent-hover);
+  --dsw-alias-button-primary-dimmed: var(--piora-selected);
+  --dsw-alias-button-elevated-fill: var(--piora-raised);
+  --dsw-alias-button-floating-fill: var(--piora-raised);
+  --dsw-alias-button-floating-hover: var(--piora-hover);
+  --dsw-alias-button-ghost-active-border: var(--piora-border);
+  --dsw-alias-button-ghost-active-fill: var(--piora-selected);
+  --dsw-alias-button-ghost-active-hover: var(--piora-hover);
+  --dsw-alias-interactive-bg-hover: var(--piora-hover);
+  --dsw-alias-interactive-bg-hover-solid: var(--piora-hover);
+  --dsw-alias-interactive-bg-hover-accent: var(--piora-user);
+  --dsw-alias-interactive-bg-active: var(--piora-selected);
+
+  --dsw-alias-state-business-primary: var(--piora-accent);
+  --dsw-alias-state-business-tertiary: var(--piora-user);
+  --dsw-alias-state-error-primary: var(--piora-error);
+  --dsw-alias-state-success-primary: var(--piora-success);
+  --dsw-alias-state-success-tertiary: var(--piora-added);
+  --dsw-alias-state-warn-label: var(--piora-warn);
+  --dsw-alias-state-warn-primary: var(--piora-warn);
+  --dsw-alias-state-warn-tertiary: var(--piora-warn-bg);
+
+  --dsw-alias-markdown-citation: var(--piora-user);
+  --dsw-alias-markdown-code-block: var(--piora-code);
+  --dsw-alias-markdown-code-block-banner: var(--piora-code-heading);
+  --dsw-alias-markdown-code-segment-selected: var(--piora-raised);
+  --dsw-alias-markdown-code-segment-unselected: var(--piora-panel);
+  --dsw-alias-markdown-inline-code: var(--piora-code);
+  --dsw-alias-markdown-placeholder: var(--piora-panel);
+  --dsw-alias-markdown-tag: var(--piora-user);
+  --dsw-alias-code-diff-added: var(--piora-added);
+  --dsw-alias-code-diff-deleted: var(--piora-deleted);
+
+  --dsw-alias-scrollbar-bg-l1: var(--piora-border);
+  --dsw-alias-scrollbar-bg-l2: var(--piora-border);
+  --dsw-alias-scrollbar-hover-l1: var(--piora-tertiary);
+  --dsw-alias-scrollbar-hover-l2: var(--piora-tertiary);
+  --dsw-alias-toast-bg: var(--piora-toast);
+  --dsw-alias-toast-label: var(--piora-on-toast);
+  --dsw-alias-tooltip-bg: var(--piora-toast);
+
+  --dsw-specific-bubble: var(--piora-user);
+  --dsw-specific-bubble-highlight: var(--piora-selected);
+  --dsw-specific-input-major: var(--piora-composer);
+  --dsw-specific-login-input: var(--piora-raised);
+  --dsw-specific-menu: var(--piora-popup);
+  --dsw-specific-selector: var(--piora-panel);
+  --dsw-specific-sidebar-fill: var(--piora-canvas);
+  --dsw-specific-sidebar-nav-item-active: var(--piora-selected);
+  --dsw-specific-sidebar-nav-item-active-accent: var(--piora-accent);
+  --dsw-specific-sidebar-nav-item-hover: var(--piora-hover);
+  --dsw-specific-tip: var(--piora-popup);
+}
+
+[data-dsh-surface="root"],
+[data-dsh-surface="conversation"] {
+  background-color: transparent;
+}
+
+[data-pane="sidebar"],
+[data-dsh-surface="sidebar"],
+[data-dsh-surface="details"] {
+  background-color: var(--piora-sidebar);
+}
+
+body[data-dsh-conversation-content] [data-dsh-part="scrollport"] {
+  background-image: linear-gradient(90deg, var(--piora-reading) 0%, var(--piora-reading) 60%, transparent 100%);
+}

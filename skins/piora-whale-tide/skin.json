@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-whale-tide",
+  "name": "晴汐",
+  "nameEn": "晴汐 · Whale at Daybreak",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "鲸鱼娘 · 晴海蓝",
+  "description": "Whale at Daybreak。鲸鱼娘 · 晴海蓝，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#2f5c90",
+  "order": 109,
+  "tags": [
+    "piora",
+    "character",
+    "light",
+    "dark"
+  ],
+  "license": "CC BY-NC-SA 4.0 (artwork), MIT (CSS)",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/character-backgrounds/whale-tide.webp",
+  "attribution": "Piora contributors, original design by ZipZipPipe, supplemental sheets by lmy414",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/whale-tide.webp",
+        "scrim": "linear-gradient(90deg, rgba(237, 247, 251, 0.27), rgba(237, 247, 251, 0.38) 55%, rgba(237, 247, 251, 0.04) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/whale-tide.webp",
+        "scrim": "linear-gradient(90deg, rgba(20, 38, 56, 0.75), rgba(20, 38, 56, 0.81) 55%, rgba(20, 38, 56, 0.28) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

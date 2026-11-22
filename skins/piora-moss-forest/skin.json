@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-moss-forest",
+  "name": "苔藓森林",
+  "nameEn": "苔藓森林 · Moss Forest",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "苔绿 · 岩石灰",
+  "description": "Moss Forest。苔绿 · 岩石灰，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#386047",
+  "order": 102,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/moss-forest.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/moss-forest.webp",
+        "scrim": "linear-gradient(90deg, rgba(237, 242, 230, 0.59), rgba(237, 242, 230, 0.61) 55%, rgba(237, 242, 230, 0.18) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/moss-forest.webp",
+        "scrim": "linear-gradient(90deg, rgba(18, 32, 26, 0.34), rgba(18, 32, 26, 0.55) 55%, rgba(18, 32, 26, 0.10) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

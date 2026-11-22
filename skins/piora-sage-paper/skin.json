@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-sage-paper",
+  "name": "鼠尾草纸艺",
+  "nameEn": "鼠尾草纸艺 · Sage Paper",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "奶油纸面 · 鼠尾草绿",
+  "description": "Sage Paper。奶油纸面 · 鼠尾草绿，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#4e613c",
+  "order": 101,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/sage-paper.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/sage-paper.webp",
+        "scrim": "linear-gradient(90deg, rgba(245, 240, 226, 0.42), rgba(245, 240, 226, 0.41) 55%, rgba(245, 240, 226, 0.10) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/sage-paper.webp",
+        "scrim": "linear-gradient(90deg, rgba(27, 35, 26, 0.76), rgba(27, 35, 26, 0.82) 55%, rgba(27, 35, 26, 0.30) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

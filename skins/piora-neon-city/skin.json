@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-neon-city",
+  "name": "雨夜霓虹",
+  "nameEn": "雨夜霓虹 · Neon Rain",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "雨蓝 · 电光洋红",
+  "description": "Neon Rain。雨蓝 · 电光洋红，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#5c4b92",
+  "order": 108,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/anime-neon-city.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/anime-neon-city.webp",
+        "scrim": "linear-gradient(90deg, rgba(239, 239, 250, 0.69), rgba(239, 239, 250, 0.78) 55%, rgba(239, 239, 250, 0.24) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/anime-neon-city.webp",
+        "scrim": "linear-gradient(90deg, rgba(24, 23, 47, 0.35), rgba(24, 23, 47, 0.54) 55%, rgba(24, 23, 47, 0.10) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

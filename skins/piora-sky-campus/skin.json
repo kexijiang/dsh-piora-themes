@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-sky-campus",
+  "name": "青空放课后",
+  "nameEn": "青空放课后 · After School Sky",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "晴空蓝 · 白云",
+  "description": "After School Sky。晴空蓝 · 白云，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#2c618c",
+  "order": 107,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/anime-sky-campus.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/anime-sky-campus.webp",
+        "scrim": "linear-gradient(90deg, rgba(237, 246, 255, 0.50), rgba(237, 246, 255, 0.57) 55%, rgba(237, 246, 255, 0.13) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/anime-sky-campus.webp",
+        "scrim": "linear-gradient(90deg, rgba(20, 36, 55, 0.76), rgba(20, 36, 55, 0.82) 55%, rgba(20, 36, 55, 0.25) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

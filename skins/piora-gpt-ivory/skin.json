@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-gpt-ivory",
+  "name": "白龙云庭",
+  "nameEn": "白龙云庭 · Ivory Dragon",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "GPT 娘 · 银白与浅丁香",
+  "description": "Ivory Dragon。GPT 娘 · 银白与浅丁香，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#645783",
+  "order": 113,
+  "tags": [
+    "piora",
+    "character",
+    "light",
+    "dark"
+  ],
+  "license": "CC BY-NC-SA 4.0 (artwork), MIT (CSS)",
+  "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/character-backgrounds/gpt-ivory.webp",
+  "attribution": "Piora contributors, original design by ZipZipPipe, supplemental sheets by lmy414",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/gpt-ivory.webp",
+        "scrim": "linear-gradient(90deg, rgba(243, 240, 250, 0.27), rgba(243, 240, 250, 0.40) 55%, rgba(243, 240, 250, 0.05) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/gpt-ivory.webp",
+        "scrim": "linear-gradient(90deg, rgba(34, 32, 55, 0.73), rgba(34, 32, 55, 0.81) 55%, rgba(34, 32, 55, 0.23) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}

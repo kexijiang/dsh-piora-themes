@@ -1,0 +1,47 @@
+{
+  "name": "dsh-piora-themes",
+  "version": "0.1.0",
+  "description": "Fourteen Piora wallpaper themes for DSH NEXT and Skin Center v2.",
+  "author": "Piora contributors",
+  "license": "SEE LICENSE IN NOTICE.md",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./package.json": "./package.json",
+    "./cordis.patch.yml": "./cordis.patch.yml"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "skins/",
+    "NOTICE.md"
+  ],
+  "scripts": {
+    "check": "node --test scripts/check.mjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "keywords": [
+    "dsh",
+    "dsh-bundle",
+    "dsh-plugin",
+    "skin-center",
+    "piora",
+    "theme"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kexijiang/dsh-piora-themes.git"
+  },
+  "homepage": "https://github.com/kexijiang/dsh-piora-themes",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "engines": {
+      "dsh": ">=0.2.2-rc.2"
+    }
+  }
+}

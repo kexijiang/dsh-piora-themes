@@ -1,0 +1,43 @@
+{
+  "$schema": "https://schemas.linxin666.org/dsh-skin/v2.json",
+  "skinManifestVersion": 2,
+  "id": "piora-aurora-glass",
+  "name": "极光玻璃",
+  "nameEn": "极光玻璃 · Aurora Glass",
+  "version": "0.1.0",
+  "author": "Piora contributors",
+  "tagline": "冰蓝玻璃 · 淡紫极光",
+  "description": "Aurora Glass。冰蓝玻璃 · 淡紫极光，亮暗配色共享同一幅 Piora 背景。",
+  "accent": "#4e5799",
+  "order": 103,
+  "tags": [
+    "piora",
+    "dream",
+    "light",
+    "dark"
+  ],
+  "license": "MIT",
+  "licenseUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/LICENSE",
+  "noticeUrl": "https://github.com/kexijiang/dsh-piora-themes/blob/main/NOTICE.md",
+  "sourceUrl": "https://github.com/kexijiang/pi-desktop/blob/3d931edd4f197370e43ddb3ef3108104ec22f819/public/themes/dream-backgrounds/aurora-glass.webp",
+  "attribution": "Piora contributors",
+  "contributes": {
+    "stylesheet": "skin.css",
+    "backgroundMedia": {
+      "light": {
+        "type": "image",
+        "src": "assets/aurora-glass.webp",
+        "scrim": "linear-gradient(90deg, rgba(237, 242, 255, 0.68), rgba(237, 242, 255, 0.70) 55%, rgba(237, 242, 255, 0.25) 86%)"
+      },
+      "dark": {
+        "type": "image",
+        "src": "assets/aurora-glass.webp",
+        "scrim": "linear-gradient(90deg, rgba(18, 25, 51, 0.34), rgba(18, 25, 51, 0.52) 55%, rgba(18, 25, 51, 0.12) 86%)"
+      }
+    }
+  },
+  "preview": {
+    "light": "preview/light.jpg",
+    "dark": "preview/dark.jpg"
+  }
+}
